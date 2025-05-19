@@ -1,0 +1,151 @@
+
+body{
+
+}
+header{
+    background-color: #FF81CA;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.principal img{
+    width:100%;
+    height: auto;
+    
+}
+
+#logo{
+    background: url(../images/marlacha\ logo.jpg) no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+}
+h1{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: #D057A4;
+    text-align: center; 
+}
+h3{
+    color: #D057A4;
+    text-align: justify;
+}
+nav{
+    background-color: #D057A4;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+aside{
+    background-color: white;
+    height: 100px;
+}
+.pink{
+    display: flex;
+}
+article{
+    
+}
+.leer a{
+    color:white;
+    background-color: #D057A4;
+    width: 150px;
+    text-align: center;
+   
+}
+.leer a:hover{
+    background-color: #D057A4;
+    text-decoration: underline;
+    text-align: center;
+   
+}
+
+button{
+    background-color: #D057A4;
+    }
+
+.product{
+    background-color: #D67BBD;
+    width: 500px;
+    height: auto;
+}
+.coments{
+    display: inline-block;
+    align-items: center;
+    
+}
+.test{
+    width: 400px;
+    height: auto;
+    margin: 100px;
+    
+    
+}
+footer{
+    background-color: #FF81CA;
+    height: 200px;
+    
+}
+.menu {
+    color: white;
+ }
+ 
+ .pink{
+     background-color: #D67BBD;
+ }
+ 
+ h4{
+     color: white;
+ }
+ p{
+     color: white;
+ }
+ a{
+     color: white;
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .flex{
+        display: flex;
+        column-gap: 20px;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    section{
+        flex-grow: 8;
+    }
+    article{
+       flex: 1 1 280px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .noflex{
+        display: block;
+    }
+    nav{
+        height: 35px;
+    }
+}
+
+/* XX large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) {
+}
